@@ -1,0 +1,11 @@
+---
+import FormattedDate from "./FormattedDate.astro";
+const {title, date,slug} = Astro.props;
+---
+<a href={`/blog/${slug}`}>
+<article class="flex flex-row items-center justify-between p-3 bg-gradient-to-r from-slate-300 to-slate-700 border-b border-gray-200 rounded-full mt-5 mr-4 shadow-xl">
+   <h3 class="text-base text-black">{title}</h3>
+   <p class="text-gray-400">{date}</p>
+   <p class="text-black"><FormattedDate date={date}/></p>
+</article>
+</a>

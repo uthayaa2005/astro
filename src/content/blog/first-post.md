@@ -3,14 +3,40 @@ title: 'First post'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 08 2022'
 heroImage: '/blog-placeholder-3.jpg'
+lastActive: 'aaaadadwdwfdwfdw'
 ---
+# What is React?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+React is a JavaScript library for building user interfaces, primarily developed by Facebook. It's commonly used for creating interactive and dynamic web applications.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## Key Features
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### 1. Declarative
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+React allows you to describe how your UI should look at any given point in time. You specify the desired state, and React handles updating the UI to match that state efficiently.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+### 2. Component-Based
+
+React applications are built using components, which are reusable and encapsulated pieces of UI. Components can be composed together to build complex UIs, and they promote code reusability and maintainability.
+
+### 3. Virtual DOM
+
+React uses a virtual DOM to optimize DOM updates. Instead of directly manipulating the DOM, React creates a lightweight virtual representation of it in memory. React then compares this virtual DOM with the actual DOM and only applies the necessary changes, resulting in improved performance.
+
+### 4. JSX Syntax
+
+JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. JSX makes it easier to write and understand React components by combining UI markup and logic in a single file.
+
+### 5. Unidirectional Data Flow
+
+React follows a unidirectional data flow model, where data flows in a single direction from parent to child components. This makes it easier to understand how data changes propagate through the application, leading to better predictability and easier debugging.
+
+## Why Use React?
+
+- **Efficiency**: React's virtual DOM and efficient rendering make it suitable for building high-performance applications.
+- **Component Reusability**: Components encourage code reusability, reducing development time and effort.
+- **Community and Ecosystem**: React has a large and active community, with a vast ecosystem of libraries and tools to enhance development productivity.
+
+## Conclusion
+
+React is a powerful library for building modern, interactive web applications. Its declarative, component-based approach, along with features like virtual DOM and JSX syntax, make it a popular choice among developers for building user interfaces.
